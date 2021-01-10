@@ -10,7 +10,7 @@ componentDidMount(){
   this.setState({time:1000})
 }
 componentWillUnmount(){
-  
+
 }
   render() {
     const { time, color } = this.state;
