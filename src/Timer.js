@@ -10,9 +10,7 @@ componentDidMount(){
   this.interval(setInterval({time:1000}))
 }
 componentWillUnmount(){
-  clearInterval(this.setInterval(function () {
-
-  }, 10);)
+  clearInterval(this.interval)
 }
   render() {
     const { time, color } = this.state;
