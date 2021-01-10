@@ -11,7 +11,7 @@ componentDidMount(){
 }
 componentWillUnmount(){
   clearInterval(this.setInterval(function () {
-    
+
   }, 10);)
 }
   render() {
