@@ -7,7 +7,7 @@ class Timer extends Component {
   };
 
 componentDidMount(){
-  this.setState(time:1000)
+  this.setState({time:1000})
 }
   render() {
     const { time, color } = this.state;
