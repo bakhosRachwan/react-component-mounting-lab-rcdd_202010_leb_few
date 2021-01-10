@@ -7,7 +7,7 @@ class Timer extends Component {
   };
 
 componentDidMount(){
-  
+
 }
   render() {
     const { time, color } = this.state;
